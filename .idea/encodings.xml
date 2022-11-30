@@ -1,8 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Conversion/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Conversion/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/EmbeddablePrimaryKeyId/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/EmbeddablePrimaryKeyId/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/EmbeddablePrimaryKeyIdClass/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/EmbeddablePrimaryKeyIdClass/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/EmbeddingClassesInEntities/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/EmbeddingClassesInEntities/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/EmbeddingCollectionsClassesInEntities/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/EmbeddingCollectionsClassesInEntities/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/EmbeddingMapsOfClassesInEntities/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/EmbeddingMapsOfClassesInEntities/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ExtendOneEntity/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ExtendOneEntity/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ExtendOneNonentity/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ExtendOneNonentity/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JoinTableOnMultipleColumns/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JoinTableOnMultipleColumns/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JoinTableOnOneColumn/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JoinTableOnOneColumn/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JoinedSubClassStrategy/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JoinedSubClassStrategy/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ManyToManyRelationship/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ManyToManyRelationship/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MultipleSecondaryTables/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MultipleSecondaryTables/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OneToManyRelationship/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OneToManyRelationship/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/PrimaryKeyGeneratedValue/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/PrimaryKeyGeneratedValue/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SecondaryTableOneField/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SecondaryTableOneField/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SecondaryTableWIthMultipleFields/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SecondaryTableWIthMultipleFields/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SimpleHibernateApp/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SimpleHibernateApp/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SingleTablePerClassHierarchy/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SingleTablePerClassHierarchy/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TablePerConcreteClass/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TablePerConcreteClass/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TestCurs/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TestCurs/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>

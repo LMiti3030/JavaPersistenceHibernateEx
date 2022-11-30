@@ -1,12 +1,11 @@
 package mititelu.laura.hibernatefundamentals.airport;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Entity
-@Table(name = "TICKETS")
+@Table(name ="TICKETS")
+@Inheritance(strategy = InheritanceType.SINGLE_TABLE)
+@DiscriminatorColumn(name = "TICKET_TYPE")
 public abstract class Ticket {
 
     @Id

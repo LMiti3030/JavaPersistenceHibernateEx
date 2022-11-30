@@ -4,14 +4,39 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.example</groupId>
+    <groupId>laura.mititelu</groupId>
     <artifactId>airport</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>SimpleHibernateApp</module>
+        <module>SecondaryTableOneField</module>
+        <module>SecondaryTableWIthMultipleFields</module>
+        <module>MultipleSecondaryTables</module>
+        <module>PrimaryKeyGeneratedValue</module>
+        <module>EmbeddablePrimaryKeyId</module>
+        <module>EmbeddablePrimaryKeyIdClass</module>
+        <module>OneToManyRelationship</module>
+        <module>ManyToManyRelationship</module>
+        <module>JoinTableOnOneColumn</module>
+        <module>JoinTableOnMultipleColumns</module>
+        <module>EmbeddingClassesInEntities</module>
+        <module>EmbeddingCollectionsClassesInEntities</module>
+        <module>EmbeddingMapsOfClassesInEntities</module>
+        <module>ExtendOneEntity</module>
+        <module>ExtendOneNonentity</module>
+        <module>SingleTablePerClassHierarchy</module>
+        <module>JoinedSubClassStrategy</module>
+        <module>TablePerConcreteClass</module>
+        <module>Conversion</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
+
 
 </project>

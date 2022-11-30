@@ -1,18 +1,18 @@
-package hibernatefundamentals.airport;
+package mititelu.laura.hibernatefundamentals.airport;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
-@Entity
-@Table(name = "TICKETS")
+@MappedSuperclass //=it does not have its own persistence but the defined state and mapping information common to multiple entity subclasses
 public abstract class Ticket {
 
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String number;
+
+    @ManyToOne //many tickets may be owned by one passenger
+    @JoinColumn(name = "PASSENGER_ID")
+    private Passenger passenger;
 
     public int getId() {
         return id;
@@ -24,5 +24,13 @@ public abstract class Ticket {
 
     public void setNumber(String number) {
         this.number = number;
+    }
+
+    public Passenger getPassenger() {
+        return passenger;
+    }
+
+    public void setPassenger(Passenger passenger) {
+        this.passenger = passenger;
     }
 }

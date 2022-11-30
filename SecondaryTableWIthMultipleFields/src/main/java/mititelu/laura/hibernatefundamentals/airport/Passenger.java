@@ -1,2 +1,89 @@
-package mititelu.laura.hibernatefundamentals.airport;public class Passenger {
+package mititelu.laura.hibernatefundamentals.airport;
+
+import javax.persistence.*;
+
+@Entity
+@Table(name = "PASSENGERS" )
+@SecondaryTable(name = "ADDRESSES",
+        pkJoinColumns = @PrimaryKeyJoinColumn(name = "PASSENGER_ID", referencedColumnName = "PASSENGER_ID"))
+public class Passenger {
+
+    @Id
+    @Column(name = "PASSENGER_ID")
+    //DEFAULT TABLE = PASSENGERS
+    private int id;
+
+    @Column(name = "PASSENGER_NAME", table = "PASSENGERS")
+    private String name;
+
+    @Column(name = "STREET", table = "ADDRESSES", columnDefinition = "VARCHAR(25) NOT NULL")
+    private String street;
+
+    @Column(name = "NUMBER", table = "ADDRESSES", columnDefinition = "VARCHAR(10) NOT NULL")
+    private String number;
+
+    @Column(name = "ZIP_CODE", table = "ADDRESSES", columnDefinition = "VARCHAR(10) NOT NULL")
+    private String zipCode;
+
+    @Column(name = "CITY", table = "ADDRESSES", columnDefinition = "VARCHAR(25) NOT NULL")
+    private String city;
+
+    //must have by all entities
+    public Passenger(){
+
+    }
+
+    public Passenger(int id, String name) {
+        this.id = id;
+        this.name = name;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+
+    public String getStreet() {
+        return street;
+    }
+
+    public void setStreet(String street) {
+        this.street = street;
+    }
+
+    public String getNumber() {
+        return number;
+    }
+
+    public void setNumber(String number) {
+        this.number = number;
+    }
+
+    public String getZipCode() {
+        return zipCode;
+    }
+
+    public void setZipCode(String zipCode) {
+        this.zipCode = zipCode;
+    }
+
+    public String getCity() {
+        return city;
+    }
+
+    public void setCity(String city) {
+        this.city = city;
+    }
 }

@@ -4,21 +4,31 @@ import javax.persistence.*;
 
 @Entity
 @Table(name = "TICKETS")
+@IdClass(TicketKey.class )
 public class Ticket {
 
-    @EmbeddedId
-    private TicketKey id;
 
+    @Id
+    private String series;
+    private String number;
     private String origin;
     private String destination;
 
 
-    public TicketKey getId() {
-        return id;
+    public String getSeries() {
+        return series;
     }
 
-    public void setId(TicketKey id) {
-        this.id = id;
+    public void setSeries(String series) {
+        this.series = series;
+    }
+
+    public String getNumber() {
+        return number;
+    }
+
+    public void setNumber(String number) {
+        this.number = number;
     }
 
     public String getOrigin() {
